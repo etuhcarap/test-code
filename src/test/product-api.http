@@ -1,0 +1,16 @@
+### 상품 생성 API
+POST localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "name": "상품명",
+  "stock": 100
+}
+
+### 상품 캐시 저장 API
+POST localhost:8080/api/products/cache/1
+Content-Type: application/json
+
+### 상품 캐시 조회 API
+GET localhost:8080/api/products/cache/1
+Content-Type: application/json
